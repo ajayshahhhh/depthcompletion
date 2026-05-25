@@ -1,0 +1,8 @@
+*.npz
+*.npy
+data/
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+*.pth
