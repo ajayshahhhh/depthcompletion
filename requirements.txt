@@ -1,8 +1,0 @@
-numpy
-pandas
-pillow
-pyyaml
-matplotlib
-torch
-torchvision
-git+https://github.com/prs-eth/Marigold-DC.git
