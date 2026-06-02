@@ -21,20 +21,16 @@ optimizer:
 training:
   epochs: 20
   freeze_rgb_epochs: 1
+  grad_clip_norm: 1.0
+  lambda_grad: 0.5
 
 model:
   pretrained_rgb: true
   residual_scale: 0.2
   depth_encoder_levels: 4
-  depth_filter_size: 3
+  depth_filter_size: 5
   depth_channels: [32, 64, 128, 256]
   fusion_decoder_channels: [256, 128, 64, 32]
-
-training:
-  epochs: 20
-  freeze_rgb_epochs: 1
-  grad_clip_norm: 1.0
-  lambda_grad: 0.5
 
 evaluation:
   warmup_samples: 1
